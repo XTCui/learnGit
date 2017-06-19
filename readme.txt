@@ -1,6 +1,3 @@
-Git is distributed version control system.
-Git is  free software distributed under the GPL
-Git has a mutable index called state
-Git tracks changes of files
-news to be created
-Creating a new branch is quick &simple
+开发一个新feature，最好新建一个分支；
+
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
