@@ -1,4 +1,6 @@
-﻿要随时掌握工作区的状态，使用git status命令。
+﻿http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743858312764dca7ad6d0754f76aa562e3789478044000
+
+要随时掌握工作区的状态，使用git status命令。
 
 如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
 
