@@ -1,4 +1,4 @@
-要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+﻿要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
 
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 
@@ -21,5 +21,3 @@
 删除分支：git branch -d <name>
 
 当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
-
-用git log --graph命令可以看到分支合并图。
