@@ -57,3 +57,6 @@ git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
 命令git tag -d <tagname>可以删除一个本地标签；
 
 命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
+
+自定义git log
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
