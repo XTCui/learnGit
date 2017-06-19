@@ -3,3 +3,4 @@ Git is  free software distributed under the GPL
 Git has a mutable index called state
 Git tracks changes of files
 news to be created
+Creating a new branch is quick &simple
